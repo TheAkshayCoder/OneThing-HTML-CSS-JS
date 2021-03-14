@@ -1,0 +1,304 @@
+.navbar-brand {
+  background-color: black;
+}
+
+.navbar-brand div {
+  color: white;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+}
+.grid-1 {
+  padding: 5rem;
+}
+.grid-1-left button {
+  background-color: rgb(245, 91, 30);
+  border-radius: 2rem;
+  color: white;
+  border-style: none;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-right: 1rem;
+}
+
+.grid-1-left p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.grid-1-right {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-1-right img {
+  width: 80%;
+}
+
+.grid-2 {
+  background-color: rgb(141, 51, 141);
+  color: white;
+  padding: 8rem;
+}
+
+.grid-2-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.grid-2-right {
+  margin-left: 8rem;
+  padding: 3rem;
+}
+
+.grid-3-left {
+  background-color: rgb(120, 230, 250);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem;
+  flex-wrap: wrap;
+}
+
+.grid-3-left input {
+  padding: 1rem;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.grid-3-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5rem;
+  padding: 8rem;
+}
+
+.grid-4 {
+  background-color: rgb(218, 188, 183);
+}
+
+.grid-4-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8rem;
+  margin: 3rem;
+}
+.grid-4-right img {
+  width: 80%;
+}
+
+.grid-4-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-5-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8rem;
+}
+
+.grid-5-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.grid-5-left a {
+  width: 10%;
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+
+.grid-5-left-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.grid-5-left img {
+  width: 70%;
+}
+
+.FAQs {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(27, 17, 83);
+  color: white;
+  padding: 5rem;
+  margin-top: 1rem;
+}
+
+footer .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer button {
+  background-color: rgb(245, 91, 30);
+  border-radius: 2rem;
+  color: white;
+  border-style: none;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin-right: 1rem;
+}
+
+ul li {
+  list-style: none;
+  padding: 1rem;
+}
+
+img {
+  box-shadow: 10px 8px 12px;
+}
+
+@media (min-width: 900px) {
+  .small {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .grid-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .grid-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .grid-2-right {
+    margin: 0;
+  }
+
+  .big {
+    display: none;
+  }
+
+  .small {
+    display: flex;
+  }
+
+  #select {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #select button {
+    margin-left: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(58, 9, 58);
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: none;
+  }
+
+  #select button:hover {
+    background-color: wheat;
+    color: rgb(58, 9, 58);
+    box-shadow: 5px 5px 5px;
+  }
+
+  .grid-3-small {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-3-small .top {
+    padding: 6rem;
+  }
+
+  .grid-3-small-bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem 2rem 4rem;
+    margin: 2rem;
+  }
+
+  .grid-4-small-top img {
+    width: 50%;
+  }
+
+  .grid-4-small-top {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(218, 188, 183);
+    padding: 8rem;
+  }
+
+  .grid-4-small-bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+  }
+
+  .grid-6-small {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 5rem 5rem 5rem;
+    background-color: #b0aae9;
+    color: white;
+    margin-bottom: 2rem;
+  }
+
+  .grid-6-small a {
+    color: white;
+  }
+
+  .grid-3-small .bottom {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0rem 1rem 1rem 1rem;
+    border: 0.5rem solid lightblue;
+    border-radius: 1rem;
+  }
+
+  .grid-3-small .bottom input {
+    background-color: rgb(180, 192, 214);
+    border-radius: 1rem;
+    margin: 1rem 2rem 1rem 2rem;
+    color: white;
+    border: none;
+    padding: 1rem;
+  }
+
+  .bottom div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .grid-5 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-5-left {
+    width: 70%;
+  }
+
+  .FAQs {
+    text-align: left;
+    margin-left: 6.5rem;
+    margin-bottom: 1rem;
+  }
+}
